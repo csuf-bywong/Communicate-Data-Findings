@@ -13193,6 +13193,26 @@ a.anchor-link {
 </head>
 
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<style type="text/css">
+//div.output_wrapper {
+//  margin-top: 0px;
+//}
+.input_hidden {
+  display: none;
+//  margin-top: 5px;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+  $(".output_wrapper").click(function(){
+      $(this).prev('.input_hidden').slideToggle();
+  });
+})
+</script>
+
 <body>
 
 
@@ -13209,6 +13229,7 @@ a.anchor-link {
 </div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
@@ -13219,6 +13240,8 @@ a.anchor-link {
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13267,6 +13290,7 @@ memory usage: 20.7+ MB
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
@@ -13291,6 +13315,8 @@ memory usage: 20.7+ MB
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13325,6 +13351,7 @@ memory usage: 20.7+ MB
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
@@ -13347,6 +13374,8 @@ memory usage: 20.7+ MB
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13381,6 +13410,7 @@ memory usage: 20.7+ MB
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
@@ -13400,6 +13430,8 @@ memory usage: 20.7+ MB
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13434,6 +13466,7 @@ memory usage: 20.7+ MB
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
@@ -13456,6 +13489,8 @@ memory usage: 20.7+ MB
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13504,6 +13539,7 @@ Name: user_type, dtype: int64
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
@@ -13519,6 +13555,8 @@ Name: user_type, dtype: int64
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13553,6 +13591,7 @@ Name: user_type, dtype: int64
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
@@ -13567,6 +13606,8 @@ Name: user_type, dtype: int64
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13601,6 +13642,7 @@ Name: user_type, dtype: int64
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
@@ -13615,6 +13657,8 @@ Name: user_type, dtype: int64
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13649,6 +13693,7 @@ Name: user_type, dtype: int64
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
@@ -13663,6 +13708,8 @@ Name: user_type, dtype: int64
 
     </div>
 </div>
+</div>
+
 </div>
 
 <div class="output_wrapper">
@@ -13697,6 +13744,7 @@ Name: user_type, dtype: int64
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
@@ -13733,6 +13781,8 @@ Name: user_type, dtype: int64
 </div>
 </div>
 
+</div>
+
 <div class="output_wrapper">
 <div class="output">
 
@@ -13752,19 +13802,6 @@ Name: user_type, dtype: int64
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
 </div>
 </div>
 
